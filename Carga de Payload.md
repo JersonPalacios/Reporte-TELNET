@@ -1,6 +1,3 @@
-# Shell Inversa con Telnet
-Obtener una shell remota desde una máquina vulnerable (Metasploitable 2) hacia Kali Linux usando un binario malicioso (shell.elf) creado con msfvenom, subido por Telnet, y ejecutado para generar una conexión inversa con Netcat.
-
 ## 1. CREAR EL PAYLOAD
 
 Usamos msfvenom para generar un payload tipo ELF (Linux) que abre una shell inversa hacia Kali en el puerto 4444.
