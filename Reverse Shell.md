@@ -58,8 +58,4 @@ uname -a
 ```
 ![image](https://github.com/user-attachments/assets/98f50d79-5af7-49b1-9ee4-c9be7e5701dd)
 
-## 5. Conclusión
 
-Este método permite escalar el acceso simple por Telnet a una shell interactiva con Netcat, facilitando un control más completo sobre la máquina comprometida.
-
-🛑 Nota de seguridad: Esta técnica demuestra lo peligroso que es tener Telnet habilitado sin medidas de seguridad adecuadas. El uso de -e /bin/bash en Netcat está considerado una vulnerabilidad crítica.
